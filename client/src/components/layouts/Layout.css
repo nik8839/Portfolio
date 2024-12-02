@@ -1,0 +1,41 @@
+.sidebar-section{
+   
+    
+    background-color: black;
+
+}
+.sidebar{
+    height:100%;
+    background-color: #1e1e2c;
+    width: 80px;
+    position: fixed;
+    overflow-y: auto;
+    
+    
+    
+}
+.sidebar-toggle{
+     width:200px;
+     height:100%
+    
+}
+.sidebar-toggle-icons{
+    display:flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+.sidebar-toggle-icons p svg{
+    background-color: orange;
+    background: white;
+    margin-top: 30px;
+   
+
+}
+
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+    .sidebar {
+      display: none;
+    }
+  }

@@ -1,0 +1,42 @@
+.navbar-profile-pic img {
+    border-radius: 50%; /* Ensures a circular shape */
+    height: 200px;      /* Set height and width to be equal */
+    width: 160px; 
+    padding-top: 1px;      
+    margin: 2px auto;  /* Centers the image horizontally */
+         /* Ensures proper centering with margin auto */
+         vertical-align: middle;
+         display:block;
+}
+.nav-item{
+    color:white;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 10px;
+    display: block;
+    
+   
+    
+}
+.nav-items{
+  margin-top:10px;
+  cursor: pointer;
+  display: block;
+  
+  
+
+}
+.nav-item svg{
+  margin-right: 10px;
+
+}
+.nav-item :hover{
+    color:orange
+  
+  }
+  .nav-link .active{
+    color:orange;
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    text-decoration: none;
+  }
