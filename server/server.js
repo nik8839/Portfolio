@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "../client/build")));
 const PORT = process.env.PORT || 8080;
 app.use(cors());
 app.use("/api/v1/portfolio", require("../server/routes/portfolioRoute"));
-app.use("*", function (req, res) {
+app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
